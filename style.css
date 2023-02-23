@@ -1,0 +1,15 @@
+.navbar {
+  padding: 2em;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
