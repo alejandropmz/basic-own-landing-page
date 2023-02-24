@@ -48,6 +48,10 @@ h1 {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+.hero-inferior {
+  margin: 20px auto;
+}
+
 .hero-inferior img {
   width: 100%;
 }
@@ -90,8 +94,19 @@ h1 {
 }
 
 .experience .row .column {
+  border-radius: 5px;
   height: 250px;
   padding: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.experience .row .column:hover {
+  background-color: #1b1b32;
+  color: white;
+}
+
+.column {
+  margin-top: 20px;
 }
 
 .column * {
