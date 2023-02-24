@@ -1,3 +1,5 @@
+/* Navbar */
+
 .navbar {
   padding: 2em;
   background-color: #f5f6f7;
@@ -12,4 +14,81 @@
   .navbar-brand {
     display: none;
   }
+}
+
+/* Hero section */
+
+section * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  font-size: 10rem;
+  margin: 20px;
+}
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  align-items: center;
+  padding: 3rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior img {
+    max-width: 600px;
+  }
+}
+
+/* about me */
+
+.about-me-container {
+  background-color: #1b1b32;
+  color: white;
+  height: 500px;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-me-container .container {
+  max-width: 700px;
+}
+
+.about-me-title {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+/* Experience */
+
+.experience {
+  padding: 40px;
+}
+
+.light-section {
+  background-color: white;
+  color: black;
+}
+
+.experience .row div {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  background-color: violet;
+  border: red solid 2px;
 }
