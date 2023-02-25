@@ -62,14 +62,21 @@ section * {
   .hero h1 {
     text-align: center;
   }
+
+  .hero h2 {
+    text-align: center;
+  }
 }
+
 @media screen and (max-width: 767px) {
   .hero h1 {
     text-align: center;
     font-size: 1.3rem;
   }
+
   .hero h2 {
-    font-size: 1.3rem;
+    text-align: center;
+    font-size: 1.2rem;
   }
 }
 
@@ -92,7 +99,7 @@ section * {
   color: #584e4e;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   #projects {
     font-size: 1.3rem;
   }
@@ -114,6 +121,14 @@ section * {
   height: 500px;
   padding: 10px;
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .about-me-container .about-me-title,
+  .about-me-container .about-me-description {
+    font-size: 1rem;
+  }
 }
 
 .about-me-container .container {
@@ -162,10 +177,6 @@ section * {
   margin-top: 20px;
 }
 
-.badges-container, .column {
-  /* border: solid red 2px; */
-}
-
 .badges-container {
   padding: 10px;
   font-size: 1rem;
@@ -191,6 +202,15 @@ section * {
 .recent-projects {
   margin: 40px auto;
   padding: 40px;
+}
+
+@media screen and (max-width: 767px){
+  .recent-projects #projects {
+    font-size: 1.2rem;
+  }
+  .recent-projects * {
+    font-size: 1rem;
+  }
 }
 
 .projects-gallery {
@@ -282,6 +302,7 @@ section * {
     min-height: 700px;
     font-size: 0.9rem;
   }
+
   .center .testimonials-text {
     font-size: 1rem;
   }
@@ -344,6 +365,7 @@ section * {
   padding: 0;
   margin: 0;
 }
+
 .contact-info .top-footer {
   background: #dad4d4;
   padding: 20px;
