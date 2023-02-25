@@ -156,6 +156,10 @@ section * {
   color: black;
 }
 
+.text-link {
+  color: #584e4e;
+}
+
 .experience .row .column {
   border-radius: 5px;
   height: 300px;
