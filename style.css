@@ -1,3 +1,8 @@
+
+a {
+ text-decoration: none; 
+}
+
 /* Navbar */
 
 .navbar {
@@ -171,5 +176,43 @@ h1 {
 }
 
 .badge-projects {
-  font-size: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: white solid 2px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: #1b1b32;
+  color: white;
+}
+
+.badge-projects:hover {
+  background: white;
+  color: #1b1b32;
+  border: #1b1b32 solid 2px;
+  transition: all 0.3s ease-in;
+}
+
+.badge-projects * {
+  font-size: 1.8rem;
+  margin: 0 8px;
+
+}
+
+@media screen and (max-width: 440px) {
+  .badge-projects * {
+    font-size: 1.3rem;
+  }
+}
+
+.col-sm-12 {
+  margin: 20px 0;
+}
+
+.small {
+  margin: 10px 0;
+  border-radius: 5px;
+  background: #1b1b32;
+  color: white;
+  padding: 5px 10px;
 }
