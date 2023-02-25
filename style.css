@@ -177,6 +177,10 @@ section * {
   justify-content: center;
 }
 
+.column .info {
+  text-align: center;
+}
+
 .column h5 {
   margin-top: 20px;
 }
