@@ -1,6 +1,5 @@
-
 a {
- text-decoration: none; 
+  text-decoration: none;
 }
 
 /* Navbar */
@@ -215,4 +214,93 @@ h1 {
   background: #1b1b32;
   color: white;
   padding: 5px 10px;
+}
+
+
+/* Testimonials */
+
+.testimonials {
+  margin: 10px 0;
+}
+
+.testimonials .title {
+  font-size: 2rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  padding: 15px 0;
+
+}
+
+.sub-titles * {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+/* testimonials carousel */
+
+.carousel {
+  margin: 20px 0 40px 0;
+  padding: 20px 10px;
+  background: #1b1b32;
+  color: white;
+  border-radius: 10px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 767px) {
+
+  .carousel {
+    min-height: 700px;
+    font-size: 0.9rem;
+  }
+  .center .testimonials-text {
+    font-size: 1rem;
+  }
+}
+
+/* .carousel-item {
+  border: solid 2px blue;
+}
+
+.center, .testimonials-info {
+  border: red solid 2px;
+} */
+
+.container-carousel .center {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials-image {
+  border: white 2px solid;
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonials-text {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.testimonials-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonials-info .client {
+  margin-bottom: 0;
+}
+
+.testimonials-info .charge {
+  margin-top: 0;
+}
+
+.social i {
+  font-size: 1.8rem;
+  margin: 0 5px;
+  color: white;
 }
