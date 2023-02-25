@@ -100,8 +100,12 @@ section * {
 }
 
 @media screen and (max-width: 767px) {
-  #projects {
+  .recent-projects #projects {
+    text-align: center;
     font-size: 1.3rem;
+  }
+  .description-section {
+    text-align: center;
   }
 }
 
@@ -245,9 +249,15 @@ section * {
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 800px) {
   .badge-projects * {
     font-size: 1.2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .badge-projects * {
+    font-size: 1rem;
   }
 }
 
