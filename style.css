@@ -226,7 +226,7 @@ section * {
 }
 
 .projects-gallery {
-  margin: 30px auto;
+  margin: 15px auto 30px auto;
 }
 
 .projects {
@@ -449,4 +449,24 @@ section * {
 .footer small {
   font-size: 12px;
   margin: 0;
+}
+
+.buttons button {
+  margin: 10px 0;
+  padding: 2px 10px;
+  border: #1b1b32 solid 1px;
+  border-radius: 5px;
+  background: white;
+}
+
+
+.buttons button:active {
+  background: #1b1b32;
+  color: white;
+  transition: all 0.1s ease-in;
+}
+
+.buttons {
+  padding: 5px;
+  font-size: 1.5rem;
 }
