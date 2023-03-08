@@ -463,7 +463,7 @@ section * {
 .buttons button:active {
   background: #1b1b32;
   color: white;
-  transition: all 0.1s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .buttons {
