@@ -2,6 +2,12 @@ a {
   text-decoration: none;
 }
 
+#new-page {
+  background-color: #1b1b32;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
 /* Navbar */
 
